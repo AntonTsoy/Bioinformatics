@@ -2,7 +2,7 @@
 
 ## О работе
 
-Название ПО для визуализации: **UCSF ChimeraX**
+Название ПО для визуализации: **UCSF ChimeraX** (https://www.cgl.ucsf.edu/chimerax/)
 
 Ссылка на структуру белка: https://www.rcsb.org/structure/8XJ4
 
