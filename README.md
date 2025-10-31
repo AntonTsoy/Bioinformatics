@@ -18,7 +18,7 @@
 ```cli
 hide cartoons
 show atoms
-style #1 stick
+style stick
 ```
 
 !
@@ -29,7 +29,7 @@ style #1 stick
 ```cli
 hide atoms
 show cartoons
-cartoon style #1 modeHelix tube
+cartoon style modeHelix tube
 ```
 
 !
@@ -40,7 +40,7 @@ cartoon style #1 modeHelix tube
 ```cli
 hide cartoons
 show atoms
-style #1 sphere
+style sphere
 ```
 
 !
@@ -51,7 +51,7 @@ style #1 sphere
 ```cli
 hide atoms
 show cartoons
-cartoon style #1 modeHelix default
+cartoon style modeHelix default
 ```
 
 !
@@ -62,7 +62,28 @@ cartoon style #1 modeHelix default
 ```cli
 hide cartoons
 show atoms
-surface #1
+surface
 ```
 
 !
+
+## Раскраска
+
+### Цветовой моделью CPK
+
+Команды:
+```cli
+hide surface
+style stick
+color byelement
+```
+
+!
+
+### Различными цветами по доменам (частям) белка
+
+Команды:
+```cli
+show cartoons
+rainbow :1-150
+```
