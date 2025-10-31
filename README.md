@@ -10,7 +10,7 @@
 
 Открываем во вкладке `Open` наш PDB файл.
 
-!
+![](sources/0.png)
 
 ### Wireframe
 
@@ -21,7 +21,7 @@ show atoms
 style stick
 ```
 
-!
+![](sources/1.png)
 
 ### Backbone
 
@@ -32,7 +32,7 @@ show cartoons
 cartoon style modeHelix tube
 ```
 
-!
+![](sources/2.png)
 
 ### Spacefill
 
@@ -43,7 +43,7 @@ show atoms
 style sphere
 ```
 
-!
+![](sources/3.png)
 
 ### Ribbons
 
@@ -54,7 +54,7 @@ show cartoons
 cartoon style modeHelix default
 ```
 
-!
+![](sources/4.png)
 
 ### Molecular surface
 
@@ -65,7 +65,7 @@ show atoms
 surface
 ```
 
-!
+![](sources/5.png)
 
 ## Раскраска
 
@@ -78,7 +78,7 @@ style stick
 color byelement
 ```
 
-!
+![](sources/6.png)
 
 ### Различными цветами по доменам (частям) белка
 
@@ -87,3 +87,10 @@ color byelement
 show cartoons
 rainbow :1-150
 ```
+
+![](sources/7.png)
+
+## Изображение белка публикационного качества
+
+![](sources/8.png)
+![](sources/9.png)
