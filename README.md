@@ -8,22 +8,22 @@
 
 ## Визуализации
 
-Открываем во вкладке `Open` наш PDB файл. Затем отключаем режим ленточек в коммандной строке:
-```cli
-hide cartoons
-```
+Открываем во вкладке `Open` наш PDB файл.
+
+!
 
 ### Wireframe
 
-
-Команды для визуализации атомов и связей, как тонких стержней, а также показа элементов:
+Используем коммандную строку. Отключаем режим ленточек, включаем режим атомов, визуализируем их как тонкие стержни:
 ```cli
+hide cartoons
+show atoms
 style #1 stick
-show #1
 ```
 
-### Backbone
+!
 
+### Backbone
 
 Команды:
 ```cli
@@ -32,4 +32,37 @@ show cartoons
 cartoon style #1 modeHelix tube
 ```
 
+!
+
 ### Spacefill
+
+Команды:
+```cli
+hide cartoons
+show atoms
+style #1 sphere
+```
+
+!
+
+### Ribbons
+
+Команды:
+```cli
+hide atoms
+show cartoons
+cartoon style #1 modeHelix default
+```
+
+!
+
+### Molecular surface
+
+Команды:
+```cli
+hide cartoons
+show atoms
+surface #1
+```
+
+!
