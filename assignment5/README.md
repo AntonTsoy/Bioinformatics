@@ -50,7 +50,6 @@ TM-score= 0.82188 (if normalized by length of Chain_2)
 MSTLTSVSGFPRIGQNRELKKIIEGYWKGANDLAAVKATAAELRAKHWRLQQAAGIDLIASNDFSYYDQMLDTAILLNVIPQRYQRL-AFDDQEDTLFAMA
 .:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :: ::::::::::
 MSTLTSVSGFPRIGQNRELKKIIEGYWKGANDLAAVKATAAELRAKHWRLQQAAGIDLIASNDFSYYDQMLDTAILLNVIPQRYQRLAFD-DQEDTLFAMA
-
 ```
 
 ### Document downloads
@@ -70,7 +69,14 @@ Submitted structural alignment is completed and the results are available at: ht
   * https://zhanggroup.org/TM-align/tmp/F252729.pdb
 
 
-
 ## Полученное раскрашенное выравнивание
 
+> AlphaFold2 - синий, ESMFold - красный
+
+![](viz.png)
+
 ## Краткие выводы
+
+TM-score = 0.82188 - это высокий показатель (0.5–1.0 приблизительно тот же фолд). Следовательно, предсказания ESMFold и AlphaFold2 имеют одинаковую глобальную топологию (тот же фолд).
+
+Обе модели практически совпадают по глобальной структуре и по большинству локальных положений — предсказания совпадают и дают один и тот же фолдинг с незначительными локальными расхождениями.
