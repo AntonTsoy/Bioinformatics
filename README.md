@@ -1,98 +1,10 @@
-# Визуализация структуры белка
+# Курс "Биоинформатика-2"
 
-Выполнил: **Цой Антон 22214**
+Преподаватель: Юрий Викторович Вяткин
 
-## О работе
+E-mail: vyatkin@gmail.com
 
-Название ПО для визуализации: **UCSF ChimeraX** (https://www.cgl.ucsf.edu/chimerax/)
+## Лабораторные работы
 
-Ссылка на структуру белка: https://www.rcsb.org/structure/8XJ4
-
-## Визуализации
-
-Открываем во вкладке `Open` наш PDB файл.
-
-![](sources/0.png)
-
-### Wireframe
-
-Используем коммандную строку. Отключаем режим ленточек, включаем режим атомов, визуализируем их как тонкие стержни:
-```cli
-hide cartoons
-show atoms
-style stick
-```
-
-![](sources/1.png)
-
-### Backbone
-
-Команды:
-```cli
-hide atoms
-show cartoons
-cartoon style modeHelix tube
-```
-
-![](sources/2.png)
-
-### Spacefill
-
-Команды:
-```cli
-hide cartoons
-show atoms
-style sphere
-```
-
-![](sources/3.png)
-
-### Ribbons
-
-Команды:
-```cli
-hide atoms
-show cartoons
-cartoon style modeHelix default
-```
-
-![](sources/4.png)
-
-### Molecular surface
-
-Команды:
-```cli
-hide cartoons
-show atoms
-surface
-```
-
-![](sources/5.png)
-
-## Раскраска
-
-### Цветовой моделью CPK
-
-Команды:
-```cli
-hide surface
-style stick
-color byelement
-```
-
-![](sources/6.png)
-
-### Различными цветами по доменам (частям) белка
-
-Команды:
-```cli
-show cartoons
-rainbow :1-150
-```
-
-![](sources/7.png)
-
-## Изображение белка публикационного качества
-
-![](sources/8.png)
-![](sources/9.png)
+- **Домашнее задание 4**: [Визуализация структуры белка](./assignment4/)
+- **Домашнее задание 5**: [Предсказание и парное выравнивание структур белков](./assignment5/)
